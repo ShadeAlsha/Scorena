@@ -106,3 +106,49 @@ soccer-talent-ai/
     ├── logger.py
     ├── visualizer.py
     └── helpers.py
+```
+
+#  Setup Guide
+
+## Step 1: Clone and Install
+```bash
+git clone https://github.com/shadealsha/scorena.git
+cd scorena
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Step 2: Environment & Config
+```bash
+cp .env.example .env
+```
+
+Edit config/config.yaml with:
+
+Paths to models
+Video sources
+Database credentials
+
+## Quickstart Examples
+
+### 1. Run Pose Estimation on a New Match
+```bash
+
+python video_processing/extract_frames.py --video data/raw/match1.mp4
+python models/pose_estimation/hrnet_infer.py --input data/processed/frames
+```
+### 2. Extract Player Metrics
+```bash
+
+python feature_extraction/extract_speed.py --pose-dir data/processed/poses
+python feature_extraction/detect_skills.py
+```
+### 3. Update Player Profile
+
+python database_management/update_profile.py --player-id 30182
+### 4. Get Position Suggestion
+```bash
+
+python coach_feedback/suggest_positions.py --player-id 30182
+```
