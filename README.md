@@ -46,8 +46,8 @@ soccer-talent-ai/
 │   └── config.yaml                     # Model paths, DB connections, env setup
 │
 ├── data/
-│   ├── raw/                            # Raw videos
-│   ├── processed/                      # Extracted features (JSON, keypoints, etc.)
+│   ├── raw/                            
+│   ├── processed/                      
 │   └── database/                       # SQL, Mongo, or Firebase snapshots
 │
 ├── models/
@@ -82,7 +82,7 @@ soccer-talent-ai/
 │   └── uncertainty_zones.py
 │
 ├── database_management/
-│   ├── player_model.py                # Schema definitions
+│   ├── player_model.py                
 │   ├── db_utils.py
 │   ├── sync_data.py
 │   └── update_profile.py
