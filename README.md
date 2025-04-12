@@ -1,5 +1,4 @@
-# ⚽ Soccer Talent AI – National Talent Identification System
-
+# ⚽ Soccer Talent AI – National Talent Identification and Youth Development System 
 A large-scale AI-powered system to **identify**, **analyze**, and **track young soccer talents** in schools and public spaces. Leveraging computer vision, deep learning, and coach feedback, this platform builds a national talent database with real-time performance analysis and development tracking.
 
 ---
@@ -13,7 +12,13 @@ A large-scale AI-powered system to **identify**, **analyze**, and **track young 
 - Help identify **gaps or uncertainties** in assessments and propose player experiments (e.g., trying new positions).
 
 ---
+## 📽️ Slides
 
+To better understand the vision, components, and roadmap of this project, check out the official presentation:
+
+👉 **[Slides: Soccer Talent AI Presentation](https://docs.google.com/presentation/d/1W6x9Wbt0_04RL9eieCt5hsVjvkODNwmzuZ-AVU7mc9Q/edit?usp=sharing)**
+
+---
 ## 🧠 System Features
 
 | Module                     | Description                                                                 |
